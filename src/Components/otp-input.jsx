@@ -5,8 +5,8 @@ const OtpInput = ({ length = 4, onOtpSubmit = () => {} }) => {
   const inputRef = useRef([]);
 
   useEffect(() => {
-    if (inputRef.current[0]) {
-      inputRef.current[0].focus();
+    if (inputRef.current[1]) {
+      inputRef.current[1].focus();
     }
   }, []);
 
