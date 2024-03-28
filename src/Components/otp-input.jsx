@@ -42,7 +42,7 @@ const OtpInput = ({ length = 4, onOtpSubmit = () => {} }) => {
           <input
             key={index}
             ref={(input) => (inputRef.current[index] = input)}
-            className="border-2 outline-1 flex items-center rounded w-[40px] h-[40px] mx-5px "
+            className="border-2 outline-1 flex items-center rounded w-[30px] h-[40px] mx-5px "
             type="text"
             value={value}
             onClick={() => handleClick(index)}
